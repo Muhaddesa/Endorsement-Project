@@ -1,3 +1,4 @@
-#CodeWeekend's Web development
-#Scrimba's solo project 
-live demo
+#CodeWeekend's Web development <br>
+
+#Scrimba's solo project <br>
+live demo <br>
