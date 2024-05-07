@@ -1,0 +1,95 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    font-family: Inter;
+    user-select: none;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 30px auto;
+    padding: 20px;
+    align-content: center;
+}
+img {
+    width: 150px;
+    margin: 0 auto;
+}
+h1{
+    font-size: 30px;
+    text-align: center;
+    font-family: Inter;
+}
+textarea{
+    background-color:#444059;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    border:none;
+    width: 317px;
+    height: 118px;
+    font-family: Inter;
+    color: white;
+    padding: 5px;
+}
+
+::placeholder {
+  color:8F8F8Fred;
+  opacity: 1; 
+  position: absolute;
+  line-height: auto;
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18.15px;
+  text-align: left;
+  position: absolute;
+  top: 5px;
+  left: 10px;
+
+}
+button{
+    width: 325px;
+    height: 61px;
+    background-color: #28A9F1;
+    color: #04131C;
+    font-weight: bold;
+    border-radius: 5px;
+    border:none;
+    font-family: Inter;
+    font-size: 20px;
+    padding: 5px;
+}
+h6{
+    font-size: 20px;
+    text-align: center;
+    font-family: Inter;
+    margin-top: 8px;
+    margin-bottom: 2px;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px;
+    width: 323px;
+    
+}
+ li
+{
+    font-size:  8px;
+    background-color: #FFFFFF;
+    width: 325px;
+    color: #1B1924;
+    font-size: 20px;
+    background-color: #FFFDF8;
+    padding: 10px;
+    border-radius: 5px;
+    flex-grow: 1;
+    text-align: center;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2)
+    
+}
